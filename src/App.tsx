@@ -1,6 +1,9 @@
-function App() {
+import Home from './pages/home';
+import Produtos from './pages/produtos';
+
+const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <Produtos />
   ) ;
 }
 
