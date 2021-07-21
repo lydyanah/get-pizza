@@ -1,29 +1,45 @@
 .product-card{
     display: flex;
+    font-family: Barlow;
     margin: 20px;
-    width: 400px;
+    width: 350px;
     height: 200px;
 }
-.product-card div.info{
+
+.product-card ul.info{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    
+    align-content: flex-start;
 }
 
 .poster{
-    object-fit: contain;
-    max-width: 150px;
-    max-height: 200px;
-    margin-right: 10px;
+    width: 130px;
+    height: 200px;
+    margin-right: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0);
 }
 
-.product-card h1{
+.product-card li{
+    padding: 5px;
+}
+
+.product-card ul li.title{
+    width: 100%;
     font-size: 18px;
     font-weight: 600;
     margin: 0px;
 }
 
-.product-card h3{
+.product-card ul li.year{
+    width: 96px;
+}
+
+.product-card ul li.imdbID{
+    width: 96px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.product-card ul li.type{
     text-transform: capitalize;
 }

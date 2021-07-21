@@ -24,11 +24,13 @@ const Products = () => {
     
     return (
     <>
-        <h1>Produtos</h1>
-            <ul>
+            <header>
+                <h1>Produtos</h1>
+            </header>
+            <ul className="products">
                 {products.map(p => {
                     return (
-                  <li>
+                  <li className="item">
                         <ProductCard
                         Title= { p.Title }
                         Year={p.Year}

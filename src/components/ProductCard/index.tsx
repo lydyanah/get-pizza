@@ -12,11 +12,12 @@ const ProductCard = (props:IProduct) => {
     return(
         <div className="product-card">
             <img className="poster" src={props.Poster} alt={props.Title} />
-            <div className="info">
-                <h1>{props.Title}</h1>
-                <h2>{props.Year} [{props.imdbID}]</h2>
-                <h3>{props.Type}</h3>
-            </div>
+            <ul className="info">
+                <li className="title">{props.Title}</li>
+                <li className="year">{props.Year}</li>
+                <li className="imdbID">[{props.imdbID}]</li>
+                <li className="type">{props.Type}</li>
+            </ul>
         </div>
     );
 }
