@@ -1,18 +1,29 @@
 .product-card{
     display: flex;
-    flex-wrap: wrap;
-  	margin: 20px;
-    color: cornsilk;
-}
-
-.product-card img{
-    width: 150px;
+    margin: 20px;
+    width: 400px;
     height: 200px;
 }
-
 .product-card div.info{
     display: flex;
-	flex-direction: column;
-	margin-left: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
+.poster{
+    object-fit: contain;
+    max-width: 150px;
+    max-height: 200px;
+    margin-right: 10px;
+}
+
+.product-card h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.product-card h3{
+    text-transform: capitalize;
+}

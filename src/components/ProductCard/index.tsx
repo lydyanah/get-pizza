@@ -11,7 +11,7 @@ interface IProduct {
 const ProductCard = (props:IProduct) => {
     return(
         <div className="product-card">
-            <img src={props.Poster} alt={props.Title} />
+            <img className="poster" src={props.Poster} alt={props.Title} />
             <div className="info">
                 <h1>{props.Title}</h1>
                 <h2>{props.Year} [{props.imdbID}]</h2>
