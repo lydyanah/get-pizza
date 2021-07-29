@@ -11,13 +11,14 @@ body {
 }
 
 header{
-    background-color: rgba(255, 153, 0, 0.651);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: cornsilk;
     font-family: Barlow;
     font-size: 3em;
     font-weight: 600;
     text-transform: uppercase;
     text-indent: 1.5em;
-    padding: 25px;
+    padding: 10px;
 }
 
 ul.products{

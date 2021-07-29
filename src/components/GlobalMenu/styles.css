@@ -1,0 +1,17 @@
+nav {
+	background-color: black;
+	color: ivory;
+	padding: 8px;
+	display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+	text-decoration: none;  /*tirar o sublinhado do link*/
+	color: inherit;
+	display: flex;
+	justify-content: center;
+	padding: 8px;
+    font-family: Barlow;
+    text-transform: uppercase;
+}

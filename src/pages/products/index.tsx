@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import GlobalMenu from '../../components/GlobalMenu';
 import ProductCard from '../../components/ProductCard';
 import api from '../../services/api'
 import './styles.css';
@@ -24,7 +25,8 @@ const Products = () => {
     }, []);
     
     return (
-    <>
+        <>
+            <GlobalMenu />
             <header>
                 <h1>Produtos</h1>
             </header>
