@@ -1,9 +1,11 @@
 .globalMenu{
 	background-color: black;
 	color: ivory;
+	font-weight: 600;
+	font-size: 1.5em;
 	padding: 8px;
 	display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .menuItem {
@@ -12,6 +14,9 @@
 	display: flex;
 	justify-content: center;
 	padding: 8px;
-    font-family: Barlow;
     text-transform: uppercase;
+}
+
+.menuItem:hover{
+	color: rgb(119, 89, 118);
 }

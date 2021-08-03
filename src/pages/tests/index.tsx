@@ -12,7 +12,7 @@ const Tests = () => {
     <>
       <GlobalMenu />
           <header>
-              <h1>Tests</h1>
+              <h1>Testes</h1>
           </header>
           
       <h2>
