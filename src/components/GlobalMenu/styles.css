@@ -1,4 +1,4 @@
-nav {
+.globalMenu{
 	background-color: black;
 	color: ivory;
 	padding: 8px;
@@ -6,7 +6,7 @@ nav {
     justify-content: flex-end;
 }
 
-nav a {
+.menuItem {
 	text-decoration: none;  /*tirar o sublinhado do link*/
 	color: inherit;
 	display: flex;

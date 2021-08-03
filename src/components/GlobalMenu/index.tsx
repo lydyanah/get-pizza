@@ -3,10 +3,10 @@ import "./styles.css";
 
 const GlobalMenu = () => {
   return (
-    <nav>
-      <a><Link to="/">Home</Link></a>
-      <a><Link to="/products">Produtos</Link></a>
-      <a><Link to="/tests">Testes</Link></a>
+    <nav className="globalMenu">
+      <Link to="/" className="menuItem">Home</Link>
+      <Link to="/products" className="menuItem">Produtos</Link>
+      <Link to="/tests" className="menuItem">Testes</Link>
     </nav>
   );
 };
