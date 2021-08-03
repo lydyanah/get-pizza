@@ -15,11 +15,13 @@ header{
     color: cornsilk;
     font-family: Barlow;
     font-weight: 600;
-    text-transform: uppercase;
     text-indent: 1.5em;
     padding: 10px;
 }
 
+h1{
+    font-size: 2em;
+}
 ul.products{
     display: flex;
     flex-wrap: wrap;
