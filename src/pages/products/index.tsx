@@ -32,7 +32,7 @@ const Products = () => {
       <ul className="products">
         {products.map((p) => {
           return (
-            <li className="item">
+            <li key={p.imdbID} className="item">
               <ProductCard
                 Title={p.Title}
                 Year={p.Year}
